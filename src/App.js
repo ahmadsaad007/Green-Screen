@@ -8,16 +8,6 @@ import SpecialButton from "./Components/SpecialButton";
 
 class App extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: '',
-      count: 0,
-      themeNumber: 0,
-      score: 1000
-    };
-  }
-
   themes = { 0: "Avengers", 1: "Food", 2: "Gaming", 3: "Sports", 4: "Shoes", 5: "Music", 6: "Hacking", 7: "Animals", 8: "Agriculture" };
 
   imageDict = [
@@ -136,6 +126,16 @@ class App extends Component {
       themeNumber: rand
     })
     //console.log(rand)
+  }
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: '',
+      count: 0,
+      themeNumber: 0,
+      score: 1000
+    };
   }
 
   componentDidMount() {
