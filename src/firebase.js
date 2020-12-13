@@ -5,13 +5,13 @@
 // // Your web app's Firebase configuration
 // // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // var firebaseConfig = {
-//     apiKey: "AIzaSyDofA2vhux_GwdgNbOh1cJmlAbxXKb5Sco",
-//     authDomain: "green-screen-d730e.firebaseapp.com",
-//     projectId: "green-screen-d730e",
-//     storageBucket: "green-screen-d730e.appspot.com",
-//     messagingSenderId: "105065519499",
-//     appId: "1:105065519499:web:71f8ff3915f5241f5d378e",
-//     measurementId: "G-WP7P87B7EG"
+//     apiKey: "",
+//     authDomain: "",
+//     projectId: "",
+//     storageBucket: "",
+//     messagingSenderId: "",
+//     appId: "",
+//     measurementId: ""
 // };
 // // Initialize Firebase
 // var fireDb = firebase.initializeApp(firebaseConfig);
