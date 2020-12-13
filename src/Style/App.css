@@ -1,0 +1,90 @@
+:root{
+  --background-color: rgb(182,229,80);
+  --text-color: rgb(90, 22, 43);
+  --border: rgb(31, 46, 11);
+  --border-bold: rgb(31, 44, 14);
+}
+body{
+  margin: 0;
+  background-color: var(--background-color);
+  width:auto;
+  overflow:hidden;
+}
+
+.center-text{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+}
+
+.absolute{
+  top: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 7;
+}
+p, h1{
+  color: var(--text-color);
+}
+
+button{
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  background-color: var(--background-color);
+  border-radius: 5px;
+  height: 35px;
+  padding: 7px;
+  width: 120px;
+}
+.special_button{
+  width: auto;
+}
+button:hover button:focus{
+  outline:none;
+}
+
+.margin-right{
+  margin-right: 10px;
+}
+
+.margin-top{
+  margin-top: 30vh;
+}
+.hidden-vis{
+  visibility: hidden;
+}
+.hiiden-vis-not{
+  visibility: visible;
+}
+
+input {
+  height: 60px;
+  width: 32%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  color: white;
+  font-size: 14px;
+  font-size: 40px;
+}
+
+  /*input:placeholder {
+      color: rgba(var(--border), 0.72);
+  }*/
+
+  #theme-guess{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  input:hover {
+      outline: none;
+      border-bottom: 1px solid var(--border-bold);
+      box-shadow: -10px 10px 10px -25px var(--border), -2px 21px 28px -20px var(--border-bold)
+}
